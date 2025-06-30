@@ -1,0 +1,400 @@
+{
+    "ProjectGroupId": null,
+    "ProjectId": 85,
+    "ProjectName": "@ProjectName",
+    "Description": null,
+    "ScriptSource": null,
+    "ProjectType": "deploy by versions",
+    "AutoImportScript": false,
+    "AutoImportScriptInterval": 0.0,
+    "AutoPackage": false,
+    "AutoPackageInterval": 0.0,
+    "DatabaseType": "MS-SQL",
+    "ConnectToCMS": false,
+    "cmsId": null,
+    "cmsType": null,
+    "CMSName": null,
+    "CMSProjectName": null,
+    "EnableSuperUser": false,
+    "isTest": false,
+    "autoDriftDetectionIntervalMintues": 240,
+    "Options": {
+      "DetectDefaultCompilationErrors": false,
+      "SaveEncoding": 1255,
+      "DetectCompilationWarnings": false,
+      "ContinuousIntegrationType": "0",
+      "FileVersionControlType": "0",
+      "SkipPostValidation": true,
+      "ReportsOutputFolder": "",
+      "ScriptOutputFolder": "@ScriptOutputFolder",
+      "SkipPreValidation": false
+    },
+    "AdditionalOptions": null,
+    "AdvancedProperties": {
+      "IgnoreDefaultSchema": false,
+      "IgnoreColumnOrder": false,
+      "IgnoreWithNocheckOnForeignKeys": false,
+      "IgnoreFilegroupPlacement": true,
+      "IgnoreFileSize": true,
+      "Do Not Drop DB types": null,
+      "GetAffectedObjects": true,
+      "AllowUnsafeRowLevelSecurityDataMovement": false,
+      "DeployDatabaseInSingleUserMode": false,
+      "IgnoreWithNocheckOnCheckConstraints": false,
+      "IgnoreAuthorizer": false,
+      "ScriptFileSize": false,
+      "CreateNewDatabase": false,
+      "AdditionalDeploymentContributorArguments": null,
+      "ConflictAction": "Abort",
+      "IgnoreFullTextCatalogFilePath": true,
+      "DatabaseSpecification.MaximumSize": 0.0,
+      "IgnoreFileAndLogFilePath": true,
+      "IgnoreIncrement": false,
+      "DropDmlTriggersNotInSource": true,
+      "AdditionalDeploymentContributors": null,
+      "ScriptRefreshModule": true,
+      "IgnoreComments": true,
+      "PreRunDataTables": null,
+      "DropObjectsNotInSource": true,
+      "ScriptDeployStateChecks": false,
+      "BlockOnPossibleDataLoss": false,
+      "DropExtendedPropertiesNotInSource": true,
+      "VerifyCollationCompatibility": true,
+      "IgnoreWhitespace": true,
+      "AllowDropBlockingAssemblies": false,
+      "IgnoreObjectPlacementOnPartitionScheme": true,
+      "IgnoreIdentitySeed": true,
+      "DropPermissionsNotInSource": false,
+      "BackupDatabaseBeforeChanges": false,
+      "CompareUsingTargetCollation": false,
+      "IncludeCompositeObjects": false,
+      "DropRoleMembersNotInSource": false,
+      "KillSessionsMethod": "Set Offline",
+      "ScriptDatabaseOptions": false,
+      "GenerateSmartDefaults": false,
+      "IgnoreTableOptions": false,
+      "UnmodifiableObjectWarnings": false,
+      "DatabaseSpecification.ServiceObjective": null,
+      "IgnorePartitionSchemes": false,
+      "IgnoreRouteLifetime": true,
+      "PreRunExternalTool": "DacPac",
+      "PreRunExpImpContentMode": "ALL",
+      "DoNotAlterReplicatedObjects": true,
+      "IgnoreUserSettingsObjects": false,
+      "AddToScriptProcess": null,
+      "IgnoreExtendedProperties": false,
+      "CheckPermissions": true,
+      "PopulateFilesOnFileGroups": false,
+      "TreatVerificationErrorsAsWarnings": false,
+      "IgnorePermissions": true,
+      "DisableAndReenableDdlTriggers": true,
+      "IgnoreSemicolonBetweenStatements": true,
+      "ScriptNewConstraintValidation": true,
+      "AllowIncompatiblePlatform": false,
+      "CommandTimeout": 60.0,
+      "IgnoreQuotedIdentifiers": true,
+      "CommentOutSetVarDeclarations": true,
+      "SchemaMappingFile": null,
+      "IgnoreCryptographicProviderFilePath": true,
+      "IgnoreDdlTriggerOrder": false,
+      "IgnoreFillFactor": true,
+      "IgnoreKeywordCasing": true,
+      "IncludeTransactionalScripts": false,
+      "Exclude DB types": [
+        "ServerTriggers",
+        "Routes",
+        "LinkedServerLogins",
+        "Endpoints",
+        "ErrorMessages",
+        "Logins",
+        "LinkedServers",
+        "Credentials",
+        "DatabaseScopedCredentials",
+        "DatabaseEncryptionKeys",
+        "MasterKeys",
+        "DatabaseAuditSpecifications",
+        "Audits",
+        "ServerAuditSpecifications",
+        "CryptographicProviders",
+        "ServerRoles",
+        "EventSessions",
+        "DatabaseOptions",
+        "EventNotifications",
+        "ServerRoleMembership",
+        "AssemblyFiles",
+        "Users",
+        "RoleMembership",
+        "Filegroups",
+        "DatabaseRoles",
+        "ApplicationRoles"
+      ],
+      "IgnoreAnsiNulls": true,
+      "RunDeploymentPlanExecutors": false,
+      "DoNotAlterChangeDataCaptureObjects": true,
+      "IgnoreIndexOptions": true,
+      "IgnoreLockHintsOnIndexes": false,
+      "ScriptDatabaseCollation": false,
+      "IgnoreDmlTriggerState": false,
+      "VerifyDeployment": true,
+      "IgnoreColumnCollation": false,
+      "NoAlterStatementsToChangeClrTypes": false,
+      "Sql Command Values": null,
+      "RegisterDataTierApplication": false,
+      "ContentForTables": null,
+      "IgnoreDdlTriggerState": false,
+      "DropIndexesNotInSource": true,
+      "DropStatisticsNotInSource": true,
+      "BlockWhenDriftDetected": false,
+      "DropConstraintsNotInSource": true,
+      "IgnoreLoginSids": true,
+      "IgnoreDmlTriggerOrder": false,
+      "ScriptDatabaseCompatibility": false,
+      "IgnoreIndexPadding": true,
+      "IgnoreRoleMembership": false,
+      "IgnoreNotForReplication": false
+    },
+    "EnvironmentTypes": [
+      {
+        "Name": "Dev",
+        "Environments": [
+          {
+            "EnvironmentId": 465,
+            "EnvironmentName": "DEV",
+            "ComparisonType": null,
+            "EnvironmentDescription": null,
+            "SuperUser": null,
+            "Schemas": [
+              {
+                "Name": "@DEV",
+                "SchemaCredentials": {
+                  "password": "@password",
+                  "folder": null,
+                  "dbName": "@DEV",
+                  "host": "@host",
+                  "safe": null,
+                  "authType": "1",
+                  "userName": "@userName",
+                  "object": null
+                },
+                "Order": 1,
+                "SchemaId": 527,
+                "IsManaged": false,
+                "IsSuperUser": false
+              }
+            ]
+          }
+        ],
+        "DriftDetection": false
+      },
+      {
+        "Name": "DryRun",
+        "Environments": [
+          {
+            "EnvironmentId": 466,
+            "EnvironmentName": "DryRun",
+            "ComparisonType": null,
+            "EnvironmentDescription": null,
+            "SuperUser": null,
+            "Schemas": [
+              {
+                "Name": "@DRYRUN",
+                "SchemaCredentials": {
+                  "password": "@password",
+                  "folder": null,
+                  "dbName": "@DRYRUN",
+                  "host": "@host",
+                  "safe": null,
+                  "authType": "1",
+                  "userName": "@userName",
+                  "object": null
+                },
+                "Order": 1,
+                "SchemaId": 528,
+                "IsManaged": false,
+                "IsSuperUser": false
+              }
+            ]
+          }
+        ],
+        "DriftDetection": false
+      },
+      {
+        "Name": "Release Source",
+        "Environments": [
+          {
+            "EnvironmentId": 467,
+            "EnvironmentName": "RS",
+            "ComparisonType": null,
+            "EnvironmentDescription": null,
+            "SuperUser": null,
+            "Schemas": [
+              {
+                "Name": "@RS",
+                "SchemaCredentials": {
+                  "password": "@password",
+                  "folder": null,
+                  "dbName": "@RS",
+                  "host": "@host",
+                  "safe": null,
+                  "authType": "1",
+                  "userName": "@userName",
+                  "object": null
+                },
+                "Order": 1,
+                "SchemaId": 529,
+                "IsManaged": false,
+                "IsSuperUser": false
+              }
+            ]
+          }
+        ],
+        "DriftDetection": false
+      },
+      {
+        "Name": "QA",
+        "Environments": [
+          {
+            "EnvironmentId": 468,
+            "EnvironmentName": "QA",
+            "ComparisonType": null,
+            "EnvironmentDescription": null,
+            "SuperUser": null,
+            "Schemas": [
+              {
+                "Name": "@QA",
+                "SchemaCredentials": {
+                  "password": "@password",
+                  "folder": null,
+                  "dbName": "@QA",
+                  "host": "@host",
+                  "safe": null,
+                  "authType": "1",
+                  "userName": "@userName",
+                  "object": null
+                },
+                "Order": 1,
+                "SchemaId": 530,
+                "IsManaged": false,
+                "IsSuperUser": false
+              }
+            ]
+          }
+        ],
+        "DriftDetection": false
+      },
+      {
+        "Name": "UAT",
+        "Environments": [
+          {
+            "EnvironmentId": 469,
+            "EnvironmentName": "UAT",
+            "ComparisonType": null,
+            "EnvironmentDescription": null,
+            "SuperUser": null,
+            "Schemas": [
+              {
+                "Name": "@UAT1",
+                "SchemaCredentials": {
+                  "password": "@password",
+                  "folder": null,
+                  "dbName": "@UAT1",
+                  "host": "@host",
+                  "safe": null,
+                  "authType": "1",
+                  "userName": "@userName",
+                  "object": null
+                },
+                "Order": 1,
+                "SchemaId": 531,
+                "IsManaged": false,
+                "IsSuperUser": false
+              }
+            ]
+          },
+          {
+            "EnvironmentId": 470,
+            "EnvironmentName": "UAT2",
+            "ComparisonType": null,
+            "EnvironmentDescription": null,
+            "SuperUser": null,
+            "Schemas": [
+              {
+                "Name": "@UAT2",
+                "SchemaCredentials": {
+                  "password": "@password",
+                  "folder": null,
+                  "dbName": "@UAT2",
+                  "host": "@host",
+                  "safe": null,
+                  "authType": "1",
+                  "userName": "@userName",
+                  "object": null
+                },
+                "Order": 1,
+                "SchemaId": 532,
+                "IsManaged": false,
+                "IsSuperUser": false
+              }
+            ]
+          }
+        ],
+        "DriftDetection": false
+      },
+      {
+        "Name": "Pre_Prod",
+        "Environments": [],
+        "DriftDetection": false
+      },
+      {
+        "Name": "Prod",
+        "Environments": [
+          {
+            "EnvironmentId": 471,
+            "EnvironmentName": "PROD",
+            "ComparisonType": null,
+            "EnvironmentDescription": null,
+            "SuperUser": null,
+            "Schemas": [
+              {
+                "Name": "@PROD",
+                "SchemaCredentials": {
+                  "password": "@password",
+                  "folder": null,
+                  "dbName": "@PROD",
+                  "host": "@host",
+                  "safe": null,
+                  "authType": "1",
+                  "userName": "@userName",
+                  "object": null
+                },
+                "Order": 1,
+                "SchemaId": 533,
+                "IsManaged": false,
+                "IsSuperUser": false
+              }
+            ]
+          }
+        ],
+        "DriftDetection": false
+      }
+    ],
+    "Hooks": [],
+    "ObjectsScope": [
+      {
+        "envTypeName": "QA",
+        "objectsScope": "package created"
+      },
+      {
+        "envTypeName": "Release Source",
+        "objectsScope": "all objects"
+      },
+      {
+        "envTypeName": "Prod",
+        "objectsScope": "package created"
+      },
+      {
+        "envTypeName": "UAT",
+        "objectsScope": "package created"
+      }
+    ]
+  }
